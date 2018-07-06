@@ -1,12 +1,11 @@
 vars:
+  master:
+    sourceName: avinci/node_app_master
+  feat:
+    sourceName: avinci/node_app_feat
   region: us-west-2
   sourceName: avinci/node_app
   integration: avinci_dh
-  branches:
-    master:
-      sourceName: avinci/node_app_master
-    feat:
-      sourceName: avinci/node_app_feat
 
 login_image_registry_temp: &login_image_registry
   - |
