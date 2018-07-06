@@ -1,8 +1,10 @@
 vars:
   master:
     sourceName: avinci/node_app_master
+    branch: master
   feat:
     sourceName: avinci/node_app_feat
+    branch: feat
   region: us-west-2
   sourceName: avinci/node_app
   integration: avinci_dh
